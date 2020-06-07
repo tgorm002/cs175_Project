@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content  %}
+
+<p>Below will be links and help for whatever programming language you need support in:</p>
+
+<hr> <!-- this creates that horizontal line you see in the webpage-->
+
+<label for="username" style="cursor:pointer;font-weight:bold;">Enter your name followed by empolyee ID (John Smith 123456789)</label><br>
+<input type="text" name="username" id="username">
+
+
+<hr> <!-- this creates that horizontal line you see in the webpage-->
+
+<strong> Now enter your top three strongest programming languages in order below seperated by a comma (C++, Python, Java)</strong> <br>
+<textarea name="sequence" id="sequence"></textarea>
+
+<hr> <!-- this creates that horizontal line you see in the webpage-->
+
+<p>
+<strong>Select the project you would be most interested in:</strong><br>
+<input type="checkbox" name="selected_newsletters" value="music" id="music"> <label for="music" style="cursor:pointer;">Database Project</label><br>
+<input type="checkbox" name="selected_newsletters" value="tech" id="tech"> <label for="tech" style="cursor:pointer;">Create a robot that can take over the world</label><br>
+<input type="checkbox" name="selected_newsletters" value="breaking" id="breaking"> <label for="breaking" style="cursor:pointer;">Build a better Search Engine</label>
+</p>
+
+<hr> <!-- this creates that horizontal line you see in the webpage-->
+
+<button onClick="window.location.reload();">Submit information to my employer</button>
+
+<hr> <!-- this creates that horizontal line you see in the webpage-->
+
+<h3> C++ Help </h3>
+<p>If you want to improve at C++ click here <a href="https://www.geeksforgeeks.org/c-programming-basics/">here</a>?<br />
+    It's a good website! ;-)</p>
+
+<h3> C Help </h3>
+<p>If you want to improve at C click here <a href="https://www.learn-c.org/">here</a>?<br />
+    It's a good website! ;-)</p>
+
+<h3> Python Help</h3>
+<p>If you want to improve at Python click here <a href="https://www.programiz.com/python-programming/first-program">here</a>?<br />
+    It's a good website! ;-)</p>
+
+<h3> Java Help</h3>
+<p>If you want to improve at Java click here <a href="https://www.geeksforgeeks.org/java/">here</a>?<br />
+    It's a good website! ;-)</p>
+
+<h3> JavaScript Help</h3>
+<p>If you want to improve at JavaScript click here <a href="https://www.guru99.com/interactive-javascript-tutorials.html">here</a>?<br />
+    It's a good website! ;-)</p>
+{% endblock %}
