@@ -4,4 +4,10 @@ For this project my team and I were instructed to create anything that could be 
 
 We created a basic website using python through the use of the Flask libraries, HTML, and CSS. Assuming that you do not have Flask installed on your computer, you cannot run the files. I have attached screenshots below of what the website looks like. 
 
-![](images/)
+![](images/screenshot1.png)
+
+![](images/screenshot2.png)
+
+![](images/screenshot3.png)
+
+![](images/screenshot4.png)
